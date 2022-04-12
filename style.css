@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@100;200&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullsize_menu{
+    display: none;
+}
+
+header{
+    height: 100vh;
+    background-image: url('images/beach.jpg');
+    background-size: cover;
+}
+
+header a{
+    text-decoration: none;
+    color: #1b422a;
+    font-size: 1.6rem;
+    grid-column: 1/3;
+    margin: 20px 10px;
+}
+header nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1r);
+    
+}
+
+
+.icon-list{
+    list-style-type: none;
+    font-size: 1.5rem;
+    grid-column: 5/8;
+    display: flex;
+    justify-content: space-around;
+    color: #1b422a;
+}
+
+.header_text_button{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(8, 50px);
+    text-align: center;
+}
+
+.header_text_button h2{
+    grid-column: 2/2;
+    grid-row: 2/3;
+    font-size: 1.9rem;;
+    font-family: 'Poppins', sans-serif;
+    color: #145945;
+}
+.header_text_button h1{
+    grid-column: 2/2;
+    grid-row: 3/5;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: #1b422a;
+}
+.header_text_button p{
+grid-column: 2/3;
+grid-row: 5/7;
+font-size: .9rem;
+font-family: sans-serif;
+color: #145945;
+}
+
+.header_text_button button{
+    grid-column: 2/2;
+    grid-row: 8/9;
+    background-color: transparent;
+    border: 1px solid #1b422a;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #1b422a;
+}
+
+
+
+
+.adv_ideas{
+    height: 100vh;
+}
