@@ -22,7 +22,7 @@ header{
 header a{
     text-decoration: none;
     color: #1b422a;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     grid-column: 1/3;
     margin: 20px 10px;
 }
@@ -40,6 +40,7 @@ header nav{
     display: flex;
     justify-content: space-around;
     color: #1b422a;
+    cursor: pointer;
 }
 
 .header_text_button{
@@ -87,4 +88,45 @@ color: #145945;
 
 .adv_ideas{
     height: 100vh;
+}
+.adv_ideas h1{
+    text-align: center;
+}
+
+.idea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   
+  
+}
+.idea_pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+.idea button{
+    background-color: transparent;
+    border: 2px solid #1b422a;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #1b422a;
+    padding: 3% 7%;
+}
+
+.idea h5{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: #1b422a;
+}
+
+.idea p{
+    font-family: sans-serif;
+    color: #1b422a;
+    padding-bottom: 25px;
 }
