@@ -87,26 +87,47 @@ color: #145945;
 
 
 .adv_ideas{
-    height: 100vh;
+    display: grid;
+    height: 220vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
-.adv_ideas h1{
-    text-align: center;
+.titleideas{
+ text-align: center;
+ font-size: 1.3rem;
+font-family: 'Oswald', sans-serif;
+color: #1b422a;
+ 
 }
 
 .idea{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
+   
+    /* padding-top: 20px; */
+    padding-bottom: 10px;
+    grid-column: 2/4;
+    grid-row: 2;
+    text-align: center;
+    padding-top: 10px;
     padding-bottom: 10px;
    
-  
+}
+
+.idea2{
+    grid-row: 3;
+}
+
+.idea3{
+    grid-row: 4;
+}
+.idea4{
+    grid-row: 5;
 }
 .idea_pic{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     padding-top: 20px;
+
 }
 
 .idea button{
@@ -129,4 +150,14 @@ color: #145945;
     font-family: sans-serif;
     color: #1b422a;
     padding-bottom: 25px;
+}
+
+.experience{
+    height: 100vh;
+}
+.experience img{
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(46, 79, 72, 0.4) 5px 5px, rgba(114, 196, 180, 0.3) 10px 10px, rgba(80, 78, 80, 0.2) 15px 15px, rgba(86, 77, 83, 0.1) 20px 20px, rgba(113, 107, 111, 0.05) 25px 25px;
+
 }
