@@ -130,7 +130,7 @@ color: #1b422a;
 
 }
 
-.idea button{
+.idea button, .btn2{
     background-color: transparent;
     border: 2px solid #1b422a;
     font-size: 1rem;
@@ -140,10 +140,10 @@ color: #1b422a;
     padding: 3% 7%;
 }
 
-.idea h5{
+.idea h5, .experience h3{
     font-size: 1.4rem;
     font-family: sans-serif;
-    color: #1b422a;
+    color: #145945;
 }
 
 .idea p{
@@ -153,11 +153,32 @@ color: #1b422a;
 }
 
 .experience{
+display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
+    padding-top: 100px;
+    background-color: rgb(153, 150, 150);
 }
 .experience img{
-    height: 200px;
-    width: 200px;
-    box-shadow: rgba(46, 79, 72, 0.4) 5px 5px, rgba(114, 196, 180, 0.3) 10px 10px, rgba(80, 78, 80, 0.2) 15px 15px, rgba(86, 77, 83, 0.1) 20px 20px, rgba(113, 107, 111, 0.05) 25px 25px;
+   
+    height: 250px;
+    width: 250px;
+    box-shadow: rgba(62, 83, 77, 0.4) 5px 5px, rgba(64, 119, 106, 0.3) 10px 10px, rgba(113, 146, 113, 0.2) 15px 15px, rgba(86, 77, 83, 0.1) 20px 20px, rgba(113, 107, 111, 0.05) 25px 25px;
 
+}
+
+.experience h3{
+    font-size: 1.8rem;
+   
+}
+.experience button{
+    margin: 35px;
+}
+
+.experience p{
+    font-family: sans-serif;
+    padding-top: 10px;
+   margin: 10px;
+    text-align: left;
 }
